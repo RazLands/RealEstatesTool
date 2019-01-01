@@ -17,8 +17,8 @@ def saveWorkSpace(fields, file_path):
 	parameters = [
 		datetime.datetime.now().strftime("%d/%m/%Y"),
 		fields['status'],
-		fields['owner'],
 		fields['agent'],
+		fields['owner'],
 		fields['city'],
 		fields['neighborhood'],
 		fields['address'],

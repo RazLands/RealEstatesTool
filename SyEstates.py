@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-
+# Version 1.0 1/1/2019
 import os, sys
-import subprocess
-subprocess.call("ui2py.bat qt_syestates")
+# import subprocess
+# subprocess.call("ui2py.bat qt_syestates")
 
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QMenuBar
